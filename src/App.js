@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Layout,Navigation,Drawer,Header,Content} from 'react-mdl';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div style={{height: '650px', position: 'relative'}}>
+    <Layout fixedHeader style={{background: ''}}>
+        <Header transparent className="nav-colour" title={<span><span style={{ color: '#ffffff' }}> <b>Parcial</b> </span></span>}>
+            <Navigation>
+                <a href="#">Home</a>
+                <a href="#">Productos</a>
+                <a href="#">Mi Carrito</a>
+                <a href="#">Transacciones</a>
+                <a href="#">Chat</a>
+            </Navigation>
+        </Header>
+        <Drawer title="Parcial">
+            <Navigation>
+                <a href="#">Home</a>
+                <a href="#">Productos</a>
+                <a href="#">Mi Carrito</a>
+                <a href="#">Transacciones</a>
+                <a href="#">Chat</a>
+            </Navigation>
+        </Drawer>
+        <Content />
+    </Layout>
+</div>
   );
 }
 
