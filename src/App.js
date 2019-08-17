@@ -1,6 +1,8 @@
 import React from 'react';
 import {Layout,Navigation,Drawer,Header,Content} from 'react-mdl';
 import './App.css';
+import {Link} from 'react-router-dom';
+import Main from './components/rutas';
 
 function App() {
   return (
@@ -8,22 +10,20 @@ function App() {
     <Layout fixedHeader style={{background: ''}}>
         <Header transparent className="nav-colour" title={<span><span style={{ color: '#ffffff' }}> <b>Parcial</b> </span></span>}>
             <Navigation>
-                <a href="#">Home</a>
-                <a href="#">Productos</a>
-                <a href="#">Mi Carrito</a>
-                <a href="#">Transacciones</a>
-                <a href="#">Chat</a>
+                <Link to="/home">Home</Link>
+                <Link to="/productos">Productos</Link>
             </Navigation>
         </Header>
         <Drawer title="Parcial">
             <Navigation>
-                <a href="#">Home</a>
-                <a href="#">Productos</a>
-                <a href="#">Mi Carrito</a>
-                <a href="#">Transacciones</a>
-                <a href="#">Chat</a>
+            <Link to="/home">Home</Link>
+                <Link to="/productos">Productos</Link>
             </Navigation>
         </Drawer>
+        <Content>
+        <div className="page-content"/>
+            <Main/>
+        </Content>
         <Content />
     </Layout>
 </div>
