@@ -6,18 +6,20 @@ import Main from './components/rutas';
 
 function App() {
   return (
-<div style={{height: '650px', position: 'relative'}}>
-    <Layout fixedHeader style={{background: ''}}>
-        <Header transparent className="nav-colour" title={<span><span style={{ color: '#ffffff' }}> <b>Parcial</b> </span></span>}>
+<div style={{height: '100%'}}>
+    <Layout fixedHeader  style={{background: ''}}>
+        <Header fixedHeader transparent className="nav-colour" title={<span><span style={{ color: '#ffffff' }}> <b>Parcial</b> </span></span>}>
             <Navigation>
                 <Link to="/home">Home</Link>
                 <Link to="/productos">Productos</Link>
+                <Link to="/carousel">Carousel</Link>
             </Navigation>
         </Header>
         <Drawer title="Parcial">
             <Navigation>
-            <Link to="/home">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link to="/productos">Productos</Link>
+                <Link to="/carousel">Carousel</Link>
             </Navigation>
         </Drawer>
         <Content>
@@ -27,6 +29,8 @@ function App() {
         <Content />
     </Layout>
 </div>
+
+
   );
 }
 
