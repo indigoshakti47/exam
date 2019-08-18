@@ -6,18 +6,20 @@ import Main from './components/rutas';
 
 function App() {
   return (
-<div style={{height: '650px', position: 'relative'}}>
+<div style={{height: '-webkit-fill-available', position: 'relative'}}>
     <Layout fixedHeader style={{background: ''}}>
         <Header transparent className="nav-colour" title={<span><span style={{ color: '#ffffff' }}> <b>Parcial</b> </span></span>}>
             <Navigation>
                 <Link to="/home">Home</Link>
                 <Link to="/productos">Productos</Link>
+                <Link to="/perfil">Perfil</Link>
             </Navigation>
         </Header>
         <Drawer title="Parcial">
             <Navigation>
-            <Link to="/home">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link to="/productos">Productos</Link>
+                <Link to="/perfil">Perfil</Link>
             </Navigation>
         </Drawer>
         <Content>
