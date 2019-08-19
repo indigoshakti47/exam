@@ -44,7 +44,7 @@ class Home extends Component {
             <h3>1</h3>
           </div>
           <div>
-            <h3>2</h3>
+            <h3>WAHATE</h3>
           </div>
           <div>
             <h3>3</h3>

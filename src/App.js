@@ -8,18 +8,24 @@ function App() {
   return (
 <div style={{height: '100%'}}>
     <Layout fixedHeader  style={{background: ''}}>
-        <Header fixedHeader transparent className="nav-colour" title={<span><span style={{ color: '#ffffff' }}> <b>Parcial</b> </span></span>}>
+        <Header fixedHeader transparent className="nav-colour" title={<span><span style={{ color: '#ffffff' }}> <b>Κοῖος</b> </span></span>}>
             <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/productos">Productos</Link>
-                <Link to="/carousel">Carousel</Link>
+                <Link to='/carousel'>Home</Link>
+                <Link to="/productos">Products</Link>
+                <Link to="/">Shopping Cart</Link>
+                <Link to=''>My profile</Link>
+                <Link to="/home">Chat room</Link>
+
+
             </Navigation>
         </Header>
         <Drawer title="Parcial">
             <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/productos">Productos</Link>
-                <Link to="/carousel">Carousel</Link>
+                <Link to='/carousel'>Home</Link>
+                <Link to="/productos">Products</Link>
+                <Link to="/carousel">Shopping Cart</Link>
+                <Link to=''>My profile</Link>
+                <Link to="/home">Chat room</Link>
             </Navigation>
         </Drawer>
         <Content>
@@ -35,3 +41,4 @@ function App() {
 }
 
 export default App;
+
