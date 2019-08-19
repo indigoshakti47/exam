@@ -1,0 +1,49 @@
+ .grid{
+  padding:'0';
+  width: '50%';
+  height: '100%';
+  display:'inline-block';
+  float:'left';
+}
+
+p{
+  letter-spacing: 2px;
+}
+
+.photo-profile{ 
+    border-radius: 50%;    
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.text-profile{ 
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
+
+.pos{ 
+    display: inline-block;
+    border: thin solid #eee;
+}
+
+.perfil{
+  width:'-webkit-fill-available';
+}
+
+.editar{
+  float: right;
+  color: blue;
+  font-size: 14px;
+}
+
+.name{
+  padding-left: 1.2em;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+hr{
+  color: black;
+}

@@ -1,16 +1,17 @@
 import React from 'react';
 import './Product.css';
 import { Modal, Button } from 'react-bootstrap';
+ 
 
 class Product extends React.Component{
+
 
     constructor(props) {
         super(props);
 
         this.state = {
             show: false
-        };      
-        
+        };           
     }
 
     render(){
