@@ -42,7 +42,7 @@ function App() {
         <Header fixedHeader transparent className="nav-colour" title={<span><span style={{ color: '#ffffff' }}> <b>Κοῖος</b> </span></span>}>
             <Navigation>
                 <Link to="/carousel">Home</Link>
-                <Link to= {`/products`} title="Products" >Products</Link>
+                <Link to= {`/product`} title="Products" >Products</Link>
                 <Link to="/">Shopping cart</Link>
                 <Link to="/profile">Profile</Link>
                 <Link to="/">Chat room</Link>
