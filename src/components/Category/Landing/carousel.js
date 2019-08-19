@@ -50,6 +50,65 @@ class Carousel extends Component {
 				<Arrow direction="left" clickFunction={ this.previousSlide } glyph="&#9664;" />
 				<ImageSlide url={ imgUrls[this.state.currentImageIndex] } />
 				<Arrow direction="right" clickFunction={ this.nextSlide } glyph="&#9654;" />
+
+				<div class="card bg-dark text-white text-center mb-3">
+  					<div class="card-body">
+  					  <h3 class="card-title">Graphics and design</h3>
+  					  <p class="card-text">A single place, millions of creative talents. From logos, packaging and presentations, we've got them all</p>
+  					</div>
+				</div>
+
+				<div class="card bg-info text-white text-center mb-3">
+				  <div class="card-body">
+				    <h3 class="card-title">Digital marketing</h3>
+				    <p class="card-text">Don't stay behing. Update and upgrade your business online.'</p>
+				  </div>
+				</div>
+				<div class="card bg-secondary text-white text-center mb-3">
+				  <div class="card-body">
+				    <h3 class="card-title">Programming & Tech</h3>
+				    <p class="card-text">Get all the technical bells and whistles without paying for a programming degree</p>
+				  </div>
+				</div>
+
+				<div class="card-columns">
+
+	<div class="card bg-light p-3 text-center">
+    <blockquote class="card-body">
+      <p> Payment is released to the freelancer once you’re pleased and approve the work you get.</p>
+      <footer>
+        <small>
+		Payment Protection, Guaranteed
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+
+  <div class="card bg-warning text-white p-3 text-center">
+    <blockquote class="card-body">
+      <p>Find any service within minutes and know exactly what you’ll pay. No hourly rates, just a fixed price.</p>
+      <footer>
+        <small>
+		Know The Price Upfront
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+
+
+  <div class="card bg-light p-3 text-center">
+    <blockquote class="card-body">
+      <p> Κοῖος is here for you, anything from answering any questions to resolving any issues, at any time.</p>
+      <footer>
+        <small>
+		We’re Here For You 24/7
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+
+</div>
+
 			
 			</div>
 		);
