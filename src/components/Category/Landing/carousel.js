@@ -5,7 +5,7 @@ import './carousel.css';
 /* Subir imágenes actualizadas (Relacionadas con CEO) a firebase y cambiar los links */
 
 const imgUrls = [
-	"https://www.solidbackgrounds.com/images/2560x1440/2560x1440-yellow-solid-color-background.jpg","https://www.solidbackgrounds.com/images/1920x1080/1920x1080-amber-orange-solid-color-background.jpg","https://www.solidbackgrounds.com/images/1920x1080/1920x1080-red-solid-color-background.jpg","https://wallpapercave.com/wp/yANCMtk.jpg"
+	"https://firebasestorage.googleapis.com/v0/b/kundalini-agent.appspot.com/o/BACK8.png?alt=media&token=49b317c6-fa54-4c23-9149-0a958959cb81","https://firebasestorage.googleapis.com/v0/b/kundalini-agent.appspot.com/o/Screen%20Shot%202019-08-19%20at%2011.22.40%20AM.png?alt=media&token=b426f034-46e5-4889-b51a-0578fa432098","https://firebasestorage.googleapis.com/v0/b/kundalini-agent.appspot.com/o/BACK6.png?alt=media&token=84e31db9-2b76-4ec8-a44e-29312e53c750","https://firebasestorage.googleapis.com/v0/b/kundalini-agent.appspot.com/o/back7.png?alt=media&token=483bd398-43c7-4836-8914-1aae28be0042","https://firebasestorage.googleapis.com/v0/b/kundalini-agent.appspot.com/o/BACK9.png?alt=media&token=587f29b8-f1f2-446f-a594-3da17fca8cbe"
 ];
 
 class Carousel extends Component {
